@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <title> Quick-Checking</title>
+    <link rel="icon" type="icon/png" href="img/rocket-solid-24.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="contenedor header-caja">
+        <div class="icono-fondo">
+            <img src="img/rocket-solid-96.png" class="img-ajustes" alt="">
+        </div>
+
+        <div class="ajustes-header">
+            <img src="img/brightness-half.svg" class="img-ajustes" alt="">
+            <img src="img/setting.svg" class="img-ajustes" alt="">
+        </div>
+    </header>
+
+    <main class="contenedor principal-caja main">
+        <div class="main-formato main-caja">
+            <div class="titulo-index titulo-caja">
+                <img src="img/clipboard-alt.svg" class="img_titulo-index" alt="">
+                <h2 class="titulo">Depositos</h2>
+            </div>
+        </div>
+
+        <form action="" method="POST" id="formulario2" class="formulario" onsubmit="return false;">
+            <h3>Movimientos</h3>
+            <div class="">
+                <p class="text-depositos"> Banco:
+                    <select name="OS" class="" id="Banco">
+                        <option value="0">--Elige una opción--</option>
+                        <option value="1">Caja Piura</option> 
+                        <option value="2">Caja Trujillo</option> 
+                        <option value="3">BCP</option>
+                        <option value="10">Interbank</option> 
+                        <option value="11">BBVA</option> 
+                        <option value="12">Scotiabank</option> 
+                    </select>
+                </p>
+
+                <p class="text-depositos"> Cuenta: 
+                    <input type="text" name="nombreCuenta" size="40" class="">
+                </p>
+
+                <p class="text-depositos"> Monto: 
+                    <input type="number" name="monto" size="40" class="">
+                </p>
+        </div>
+
+        <p class="centrar boton">
+            <input type="submit" value="Guardar" class="boton_personalizado" id="boton">
+            
+        </p>
+    </form>
+    </main>
+
+    <footer class="footer contenedor">
+        <div class="menu-footer">
+            <a href="index.html">
+                <img src="img/estate.svg" class="img-footer" alt="">
+            </a> 
+            <a href="">
+                <img src="img/copy.svg" class="img-footer" alt="">
+            </a>
+            <a href="">
+                <img src="img/file-share-alt.svg" class="img-footer" alt="">
+            </a>
+            <a href="caja.html">
+                <img src="img/calculator.svg" class="img-footer" alt="">
+            </a>
+            <a href="">
+                <img src="img/user-circle.svg" class="img-footer" alt="">
+            </a>
+        </div>
+
+    </footer>
+    <script src="JS/javascript.js"></script>
+</body>
+</html>
